@@ -1,0 +1,11 @@
+[
+ {"id":"startup","price":50000,"accent":"gold",
+  "name":{"en":"Startup Package","si":"ආරම්භක පැකේජය"},
+  "features":[{"en":"1 video","si":"වීඩියෝ 1"},{"en":"5 graphic posts","si":"ග්‍රැෆික් පෝස්ට් 5"},{"en":"Social media marketing ad set (1)","si":"සමාජ මාධ්‍ය අලෙවිකරණ දැන්වීම් කට්ටලය - 1"}]},
+ {"id":"growth","price":75000,"accent":"orange",
+  "name":{"en":"Growth Package","si":"වර්ධන පැකේජය"},
+  "features":[{"en":"2 promotion videos","si":"ප්‍රවර්ධන වීඩියෝ 2"},{"en":"10 graphic posts","si":"ග්‍රැෆික් පෝස්ට් 10"},{"en":"Social media marketing + local influencer marketing","si":"සමාජ මාධ්‍ය අලෙවිකරණය + දේශීය බලපෑම්කාරී අලෙවිකරණය"}]},
+ {"id":"premium","price":100000,"accent":"blue",
+  "name":{"en":"Premium Package","si":"විශේෂ පැකේජය"},
+  "features":[{"en":"3 videos","si":"වීඩියෝ 3"},{"en":"10 graphic posts","si":"ග්‍රැෆික් පෝස්ට් 10"},{"en":"Influencer + social media + digital marketing (Google Ads)","si":"බලපෑම්කාරී + සමාජ මාධ්‍ය + ඩිජිටල් අලෙවිකරණය (ගුගල් දැන්වීම්)"}]}
+]

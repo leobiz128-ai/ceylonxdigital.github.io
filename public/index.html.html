@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CeylonX Digital – Digital marketing in Kalutara, Sri Lanka</title>
+<meta name="description" content="CeylonX Digital creates videos, graphic posts, social media ads, influencer campaigns and Google Ads for Sri Lankan businesses.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&family=Noto+Sans+Sinhala:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#top"><b>CX</b> ceylonex<span> digital</span></a>
+  <nav aria-label="Main">
+    <a href="#services" data-i18n="nav_services">Services</a>
+    <a href="#packages" data-i18n="nav_packages">Packages</a>
+    <a href="#process" data-i18n="nav_process">How it works</a>
+    <a href="#contact" data-i18n="nav_contact">Contact</a>
+    <button class="lang" id="lang" type="button" aria-label="Switch language">සිං</button>
+    <a class="btn btn-small" href="#book" data-i18n="nav_book">Book a call</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <h1 data-i18n="h1">Grow your business</h1>
+      <p class="lead" data-i18n="lead">Videos, graphic posts, social media ads and Google Ads for businesses in Sri Lanka.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#book" data-i18n="cta1">Book a free call</a>
+        <a class="btn btn-ghost" href="#packages" data-i18n="cta2">See packages</a>
+      </div>
+      <p class="from"><span data-i18n="from">Packages from</span> <b>Rs. 50,000</b></p>
+    </div>
+    <div class="chart" aria-hidden="true">
+      <svg viewBox="0 0 420 340">
+        <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#FFB93D"/><stop offset="1" stop-color="#FF6A2B"/></linearGradient></defs>
+        <g class="bars" fill="#2F8CFF">
+          <rect x="20" y="250" width="44" height="70" rx="8"/><rect x="90" y="215" width="44" height="105" rx="8"/>
+          <rect x="160" y="175" width="44" height="145" rx="8"/><rect x="230" y="130" width="44" height="190" rx="8"/>
+          <rect x="300" y="85" width="44" height="235" rx="8"/>
+        </g>
+        <polyline class="line" points="20,230 90,190 160,200 230,120 300,90 390,20" fill="none" stroke="url(#g)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+        <path class="head" d="M362 16 L398 12 L388 48 Z" fill="#FF6A2B"/>
+      </svg>
+      <span class="chip c1">Facebook</span><span class="chip c2">Instagram</span><span class="chip c3">Google Ads</span>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <h2 data-i18n="s_title">What we make</h2>
+    <ul class="services">
+      <li><h3 data-i18n="s1">Videos</h3><p data-i18n="s1d">Promotion videos that show your business at its best.</p></li>
+      <li><h3 data-i18n="s2">Graphic posts</h3><p data-i18n="s2d">Clean, on-brand designs for your feed every week.</p></li>
+      <li><h3 data-i18n="s3">Social media ads</h3><p data-i18n="s3d">Ad sets on Facebook and Instagram aimed at the right people.</p></li>
+      <li><h3 data-i18n="s4">Influencer marketing</h3><p data-i18n="s4d">Local influencers who bring your brand to new customers.</p></li>
+      <li><h3 data-i18n="s5">Google Ads</h3><p data-i18n="s5d">Be seen when people search for what you sell.</p></li>
+    </ul>
+  </section>
+
+  <section id="packages" class="section">
+    <h2 data-i18n="p_title">Digital marketing packages</h2>
+    <p class="sub" data-i18n="p_sub">Choose a package, then book a free call to plan it.</p>
+    <div id="packageList" class="packages" aria-live="polite">…</div>
+  </section>
+
+  <section id="process" class="section">
+    <h2 data-i18n="h_title">How it works</h2>
+    <ol class="steps">
+      <li><h3 data-i18n="h1t">Book a call</h3><p data-i18n="h1d">Pick a package and a time. It takes two minutes.</p></li>
+      <li><h3 data-i18n="h2t">We plan with you</h3><p data-i18n="h2d">We learn your business and agree the content and ads.</p></li>
+      <li><h3 data-i18n="h3t">Launch and grow</h3><p data-i18n="h3d">We publish, run the ads and keep improving.</p></li>
+    </ol>
+  </section>
+
+  <section id="book" class="section book">
+    <div class="book-intro">
+      <h2 data-i18n="b_title">Book your free call</h2>
+      <p data-i18n="b_text">30 minutes with our team. Open Monday to Saturday.</p>
+    </div>
+    <div>
+    <form id="bookForm" novalidate>
+      <fieldset><legend data-i18n="b1">1. Choose a package</legend><div id="pkgChoice" class="choice"></div></fieldset>
+      <fieldset><legend data-i18n="b2">2. Pick a date and time</legend>
+        <label for="date" data-i18n="b_date">Date</label><input type="date" id="date" required>
+        <div id="slots" class="slots" role="group"><p class="hint" data-i18n="b_pick">Pick a date to see open times.</p></div></fieldset>
+      <fieldset><legend data-i18n="b3">3. Your details</legend>
+        <label for="name" data-i18n="b_name">Your name</label><input id="name" autocomplete="name" required>
+        <label for="phone" data-i18n="b_phone">Phone number</label><input id="phone" type="tel" autocomplete="tel" required>
+        <label for="email" data-i18n="b_email">Email</label><input id="email" type="email" autocomplete="email" required>
+        <label for="business" data-i18n="b_biz">Business name</label><input id="business" autocomplete="organization" required>
+        <label for="message" data-i18n="b_msg">What do you want to achieve? (optional)</label><textarea id="message" rows="3"></textarea></fieldset>
+      <p id="formError" class="error" role="alert"></p>
+      <button class="btn" type="submit" id="submitBtn" data-i18n="b_submit">Confirm booking</button>
+    </form>
+    <div id="success" class="success" hidden tabindex="-1"></div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact" class="footer">
+  <div><a class="logo" href="#top"><b>CX</b> ceylonex<span> digital</span></a>
+    <p data-i18n="f_loc">Location: Kalutara, Sri Lanka</p></div>
+  <div><h3 data-i18n="f_call">Call us</h3>
+    <a href="tel:+94768616628">076 861 6628</a><a href="tel:+94788791962">078 879 1962</a></div>
+  <div><h3 data-i18n="f_web">Find us online</h3>
+    <a href="https://www.instagram.com/ceylonex_digital" target="_blank" rel="noopener">@ceylonex_digital</a>
+    <a href="https://www.ceylonex.lk" target="_blank" rel="noopener">www.ceylonex.lk</a></div>
+  <p class="copy">© <span id="yr"></span> CeylonX Digital</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
